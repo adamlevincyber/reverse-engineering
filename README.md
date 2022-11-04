@@ -4,6 +4,7 @@
 - [GDB](https://www.sourceware.org/gdb/)
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
 - [IDA](https://hex-rays.com/ida-pro/)
+- [r2/radare2](https://rada.re/)
 - [Wireshark](https://www.wireshark.org/)
 - [x64dbg](https://github.com/x64dbg/x64dbg)
 ___
@@ -20,3 +21,12 @@ ___
 - `si` and `ni` to step into and step over an instruction (and calls)
 - `bt` bracktrace of call stack
 - `f <frame_number>` to jump to a different stack frame
+
+## Helpful radare2 Commands:
+- `aa(aa)` to perform analysis
+- `afl` list all functions
+- `s` to seek in memory
+- `iS` list code sections
+- `p?` help menu for print modes
+- `pdf` print disassembled function
+- `V` enters visual mode
